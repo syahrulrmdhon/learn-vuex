@@ -64,7 +64,7 @@ html, #app, .home {
   body {
     background-color: #F4F4F4;
     margin: 0;
-    height: 100%;
+    height: 100% !important;
   }
 
   .hello {
@@ -92,7 +92,6 @@ html, #app, .home {
 
   .right {
     grid-area: right;
-    background-color: #E9E9E9;
   }
 
   input {
