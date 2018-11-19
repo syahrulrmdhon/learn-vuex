@@ -2,12 +2,15 @@
   "name": "learn-vuex",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/syahrulrmdhon/learn-vuex",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "vue": "^2.5.17",
+    "vue-gh-pages": "^1.19.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
